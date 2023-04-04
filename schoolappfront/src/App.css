@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap");
+
+html {
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Arima";
+  background-color: #353839;
+  background-image: url("./components/images/schoolBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+
+.contentBackground {
+  background-color: rgba(16, 17, 17, 0.9);
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.MuiDataGrid-columnSeparator--sideRight {
+  display: none !important;
+} 
+
+.css-118geu5-MuiTypography-root
+{
+  color: whitesmoke;
+  border-bottom: whitesmoke 1px solid;
+}
+
+.Mui-selected 
+{
+  color: gold;
+}
+
+.MuiToolbar-root .MuiToolbar-gutters .MuiToolbar-regular .MuiTablePagination-toolbar .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+  color: gold;
+}
